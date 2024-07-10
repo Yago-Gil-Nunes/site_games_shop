@@ -64,7 +64,6 @@ section .container {
 
 section {
     padding: 24px 0;
-   
 }
 
 section h2 {
@@ -82,4 +81,12 @@ section p {
 
 .store-front {
     margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+#contact .container {
+    display: block;
 }
