@@ -90,3 +90,20 @@ section p {
 #contact .container {
     display: block;
 }
+
+.contact-methods {
+    display: flex;
+}
+
+form input,
+form textarea
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
