@@ -27,7 +27,8 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex; /*usado para colocar o menu ao lado do titulo*/
     align-items: center; /*para centralizar na vertical*/
     justify-content: space-between;/*distribuir o menu*/
@@ -36,4 +37,29 @@ header .container {
 
 .brands-list img {
     height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
 }
