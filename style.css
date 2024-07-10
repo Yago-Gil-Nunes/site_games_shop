@@ -33,3 +33,7 @@ header .container {
     justify-content: space-between;/*distribuir o menu*/
 
 }
+
+.brands-list img {
+    height: 24px;
+}
